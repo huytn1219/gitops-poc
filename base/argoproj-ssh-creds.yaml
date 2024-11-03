@@ -6,7 +6,7 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: repo-creds
 stringData:
-  url: git@github.com:huytn1219/microservice-01.git
+  url: git@github.com:test/microservice-01.git
   type: git
   username: my-username
   password: my-password
