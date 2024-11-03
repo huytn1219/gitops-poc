@@ -1,6 +1,8 @@
 resources:
-- argo-repo-microservice-01.yaml
-- argo-repo-microservice-02.yaml
+- ../../base
+- argo-repo-microservice-03.yaml
+
+namePrefix: prod-
 
 patches:
 - path: patch.yaml
