@@ -8,5 +8,5 @@ metadata:
 stringData:
   url: git@github.com:huytn1219/microservice-01.git
   type: git
-  username: argocd
-  password: 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
+  username: my-username
+  password: my-password
