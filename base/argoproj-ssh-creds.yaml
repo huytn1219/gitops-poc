@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: argoproj-ssh-creds
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repo-creds
+stringData:
+  url: git@github.com:huytn1219/microservice-01.git
+  type: git
+  sshPrivateKey: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    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
+    -----END OPENSSH PRIVATE KEY-----
