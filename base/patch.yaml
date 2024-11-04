@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: not-important
+  name: _
 stringData:
   username: my-username
   password: my-password
