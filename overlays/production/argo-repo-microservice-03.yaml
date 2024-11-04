@@ -7,4 +7,4 @@ metadata:
     argocd.argoproj.io/secret-type: repo-creds
 stringData:
   name: argo-repo-microservice-03
-  url: https://github.com/test/microservice-03.git
+  url: https://github.com/test/argo-repo-microservice-03.git
